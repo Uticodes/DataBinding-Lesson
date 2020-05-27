@@ -25,7 +25,6 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-
 /**
  * Main Activity of the AboutMe app.
  * This codelab demonstrates how to add:
@@ -47,6 +46,7 @@ class MainActivity : AppCompatActivity() {
      * Click handler for the Done button.
      */
     private fun addNickname(view: View) {
+
         val editText = findViewById<EditText>(R.id.nickname_edit)
         val nicknameTextView = findViewById<TextView>(R.id.nickname_text)
 
